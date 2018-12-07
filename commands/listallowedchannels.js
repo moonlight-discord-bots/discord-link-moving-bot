@@ -27,8 +27,8 @@ exports.run = async (client, message) => {
 }
 
 exports.help = {
-  name: 'ping',
-  info: 'Checks if bot responds',
+  name: 'listallowedchannels',
+  info: 'Lists all whitelisted channels',
   usage: '',
   unlisted: false,
 }
