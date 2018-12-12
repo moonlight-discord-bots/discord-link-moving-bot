@@ -6,6 +6,7 @@ module.exports = {
   moveHook: {
     id: 'something',
     token: 'keep this safe from everyone ok?'
-  }
+  },
+  linkChannel: '452840665429311509'
 
 }

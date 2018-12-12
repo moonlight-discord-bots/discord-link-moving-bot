@@ -22,7 +22,7 @@ exports.run = async (client, message, args) => {
   `Allowing links: action taken by ${message.author.tag}`
   )
 
-  message.channel.send(`:white_check_mark: Links are now disallowed to be posted in ${sameChannel ? 'this' : 'that'} channel`)
+  message.channel.send(`:white_check_mark: Links are no longer allowed to be posted in ${sameChannel ? 'this' : 'that'} channel`)
 
 }
 

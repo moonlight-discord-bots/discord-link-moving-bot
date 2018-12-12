@@ -17,7 +17,7 @@ exports.run = async (client, message) => {
     webhook.send(message.content, {username: message.author.username, avatarURL: message.author.displayAvatarURL})
     message.delete('Message contains links, but the channel does not allow that')
 
-    message.channel.send(`${message.author}, :information_source: You cannot send links here! You can find the message you sent in <#${webhook.channelID}>`)
+    message.channel.send(`${message.author}, :information_source: You cannot send links here! You can find the message you sent in <#${client.config.linkChannel}>`)
     .then(m=>{m.delete(15000)})
 
   } catch(e) {
